@@ -1,0 +1,21 @@
+section {
+  border-bottom: 1px solid black;
+  min-height: 80vh;
+}
+.codingiseasy {
+  display: flex;
+}
+
+.codingiseasy div {
+  display: flex;
+  flex-direction: column;
+}
+
+.codingiseasy .left {
+  flex-basis: 60%;
+}
+.codingiseasy .right {
+  flex-basis: 40%;
+  background-image: url('../img/kitten.jpg');
+  background-size: cover;
+}
