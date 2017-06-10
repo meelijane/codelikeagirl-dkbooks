@@ -19,3 +19,6 @@ section {
   background-image: url('../img/kitten.jpg');
   background-size: cover;
 }
+body{
+  background: url('https://media.giphy.com/media/9fuvOqZ8tbZOU/giphy-downsized-large.gif');
+  color: red;
