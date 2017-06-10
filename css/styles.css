@@ -9,7 +9,7 @@ section {
 .codingiseasy div {
   display: flex;
   flex-direction: column;
-}
+}dark
 
 .codingiseasy .left {
   flex-basis: 60%;
@@ -18,4 +18,8 @@ section {
   flex-basis: 40%;
   background-image: url('../img/kitten.jpg');
   background-size: cover;
+}
+body{
+  background-color:yellow; 
+  border:30px solid red;
 }
