@@ -12,10 +12,15 @@ section {
 }
 
 .codingiseasy .left {
-  flex-basis: 60%;
+  flex-basis: 60%
 }
 .codingiseasy .right {
   flex-basis: 40%;
   background-image: url('../img/kitten.jpg');
   background-size: cover;
 }
+
+body {
+  background-color: aqua;
+  background-image:url(https://cdn.pixabay.com/photo/2016/03/21/09/58/bakery-product-1270278_960_720.png);
+background-size: 200px;
