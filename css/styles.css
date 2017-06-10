@@ -19,3 +19,7 @@ section {
   background-image: url('../img/kitten.jpg');
   background-size: cover;
 }
+
+body{
+  background-color: pink;
+  border: 25px solid turquoise;}
