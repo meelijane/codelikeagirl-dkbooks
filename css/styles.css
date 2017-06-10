@@ -14,8 +14,9 @@ section {
 .codingiseasy .left {
   flex-basis: 60%;
 }
-.codingiseasy .right {
+body {
   flex-basis: 40%;
-  background-image: url('../img/kitten.jpg');
+  background-image: url('http://cdn.playbuzz.com/cdn/2bdf2c88-6edd-4a2a-a075-7b1bb0af5390/f364b4c2-52b4-442d-840c-d5b970104edf_560_420.jpg');
   background-size: cover;
+  color:Navy blue;
 }
