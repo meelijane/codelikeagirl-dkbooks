@@ -13,9 +13,14 @@ section {
 
 .codingiseasy .left {
   flex-basis: 60%;
+
 }
 .codingiseasy .right {
   flex-basis: 40%;
   background-image: url('../img/kitten.jpg');
   background-size: cover;
+}
+
+body{
+  background-color:turquoise;
 }
