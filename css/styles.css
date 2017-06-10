@@ -14,8 +14,14 @@ section {
 .codingiseasy .left {
   flex-basis: 60%;
 }
-.codingiseasy .right {
+body {
   flex-basis: 40%;
-  background-image: url('../img/kitten.jpg');
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/123/744/non_2x/vector-harry-potter-pattern.jpg');
   background-size: cover;
+color:white;
+}
+
+iframe {
+  float: left;
+  clear: both;
 }
