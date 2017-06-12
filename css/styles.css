@@ -1,9 +1,60 @@
-section {
-  border-bottom: 1px solid black;
-  min-height: 80vh;
+h1 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    display: block;
 }
+
+h2 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 22.4px;
+  display: block;
+}
+
+h3 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+  display: block;
+}
+
+p {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+  margin: 0;
+}
+
+section,footer {
+  margin: auto;
+  padding: 15px 20px;
+  width: 675px;
+}
+
+.banner{
+  background-image: url('../img/mainbanner.jpg');
+  background-repeat: no-repeat;
+  background-size:auto;
+  min-height: 315px;
+  background-position: center;
+}
+
 .codingiseasy {
   display: flex;
+  border-top: 2px solid #8a2c3c;
 }
 
 .codingiseasy div {
@@ -12,10 +63,111 @@ section {
 }
 
 .codingiseasy .left {
-  flex-basis: 60%;
+  flex-basis: 50%;
+  padding: 0px 50px 0px 0px;
 }
+
 .codingiseasy .right {
   flex-basis: 40%;
-  background-image: url('../img/kitten.jpg');
-  background-size: cover;
+  background-image: url('../img/girl-laptop.jpg');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.codewewrote
+{
+  display: flex;
+  border-top: 2px solid #e0b217;
+}
+
+.gallery
+{
+    border-top: 2px solid #7cb9aa;
+}
+
+.youcanlearnto
+{
+    border-top: 2px solid #1b7cb3;
+}
+
+.youcanlearnto .books
+{
+  width:100%;
+}
+
+.youcanlearnto .books img
+{
+    object-fit: contain;
+    width: 13%;
+    margin-right: 4px;
+}
+
+.youcanlearnto .books img.last-item
+{
+    margin-right: 0px;
+}
+
+.whobuiltthis
+{
+    text-align: center;
+      border-top: 2px solid #8bb138;
+}
+
+.whobuiltthis .twocol{
+      display: flex;
+}
+
+.whobuiltthis .left
+{
+    flex-basis: 50%;
+    width:50%;
+}
+.whobuiltthis img
+{
+    margin: auto;
+    width:80%
+}
+
+footer
+{
+  border-top: black solid 1px;
+}
+
+.branding__logo {
+    float: left;
+    height: 65px;
+}
+
+.branding__logo img
+{
+  height: 50px;
+}
+
+.slogan {
+    font: normal 17px;
+    margin: 8px 0 0 17px;
+    float: left;
+    word-spacing: 1px;
+}
+
+.slogan .subline {
+    display: block;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+.mySlides, .mySlides img
+{
+  width: 100%;
+  margin: auto;
+}
+
+.w3-display-right
+{
+  right:-8%;
+}
+.w3-display-left
+{
+  left:-8%;
 }
