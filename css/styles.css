@@ -1,21 +1,65 @@
-section {
-  border-bottom: 1px solid black;
-  min-height: 80vh;
+html {
+  background: url(https://images-na.ssl-images-amazon.com/images/I/A1UL2NorARL._CR0,0,3840,2880_._SL1000_.jpg) no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ font-family: 'Muli', sans-serif;
+ min-height: 100%;
 }
-.codingiseasy {
-  display: flex;
+.title h1{
+  color: white;
+  text-align: center;
+  font-size: 200px;
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: capitalize;
+  color: transparent;
+  text-shadow: 0 0 5px rgba(255,255,255,0.5);
+  margin-bottom: 300px
 }
 
-.codingiseasy div {
-  display: flex;
-  flex-direction: column;
+.overlay{
+  margin-top: 50px;
+  background-color: rgba(211,211,211,0.2);
+  color: white;
+  min-height: 40vh;
+  text-align: center;
+  font-size: 30px;
+  font-weight:500;
 }
-
-.codingiseasy .left {
-  flex-basis: 60%;
+.quote{
+  width: 10%;
+  height: 10%;
 }
-.codingiseasy .right {
-  flex-basis: 40%;
-  background-image: url('../img/kitten.jpg');
-  background-size: cover;
+.black{
+  background-color: black;
+  margin: 0;
+  padding:0;
+  height: 120px;
+  margin-top: 30px
+}
+audio{
+  display: none;
+}
+.info{
+  padding: 40px;
+  margin:30px;
+}
+.black2{
+  background-color: black;
+  margin: 0;
+  padding:0;
+  height: 120px;
+}
+.video{
+  font-size: 200px;
+}
+.overlay2{
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  min-height: 200vh;
+  text-align: center;
+  font-size: 30px;
+  font-weight:500;
+  padding: 100px
 }
